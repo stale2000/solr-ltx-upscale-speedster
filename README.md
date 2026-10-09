@@ -1,5 +1,7 @@
 # SoL H3 Upscaler
 
+**Two RTX 5090s upscaled a 15.08-second H3 clip to 1184×666 in 13.61 seconds end-to-end: 1.11× real time and 17% faster than one GPU.** A separate live shared-VAE run delivered 42 consecutive 15-second clips. These are warm benchmark results and a finite live smoke test, not a long-duration service guarantee.
+
 A standalone ComfyUI custom-node repository for NVIDIA's MiniMax-H3 SoL video upscaler. It includes the H3-specific SoL Refiner node, its isolated inference worker, vendored refiner implementation, runtime installer, and conditioning preparation utility.
 
 ## Install
