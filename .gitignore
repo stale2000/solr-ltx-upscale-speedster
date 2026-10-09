@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.worker/
+benchmark-results/
+outputs/
+.env

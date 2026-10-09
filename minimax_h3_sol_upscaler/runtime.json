@@ -1,0 +1,23 @@
+{
+  "source_manifest": "deploy/vast/fasth3-environment.json",
+  "python": "3.12",
+  "torch": "2.14.0+cu130",
+  "torch_cuda": "13.0",
+  "torchvision": "0.29.0+cu130",
+  "torchaudio": "2.11.0+cu130",
+  "natten": "not-used-in-host",
+  "worker": {
+    "model_residency": "cuda",
+    "cpu_offload_enabled": false,
+    "persistent": true,
+    "allocator": "expandable_segments:True",
+    "decoder_rope": "fused-fp32-no-fma",
+    "output_packing": "cuda-uint8-pinned",
+    "python": "3.12",
+    "torch": "2.13.0+cu130",
+    "triton": "3.7.1",
+    "torch_cuda": "13.0",
+    "torchvision": "0.28.0+cu130",
+    "natten": "0.21.7+torch2130cu130"
+  }
+}
